@@ -2,6 +2,6 @@
 Arithmetic subpackage containing descrete derivative function.
 """
 
-from .descrete import diff
+from .discrete import diff
 
 __all__ = ['diff']
