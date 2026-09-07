@@ -1,3 +1,5 @@
+import numpy as np
+
 def rowswap(A, source, target):
   A[[source, target]] = A[[target, source]]
   return(A)
@@ -13,12 +15,13 @@ def rowreplacement(A, row_i, row_j, j, k):
 
 def initial_swap(A):
   swapped_rows = 0
-  for col in range(len(A[:, 0])):
-    for row in range(swapped_rows, len(A[:, 0])):
+  for col in range(len(A[0])):
+    for row in range(swapped_rows, len(A)):
       if row != swapped_rows:
         if A[row, col] != 0:
           rowswap(A, col, row)
         swapped_rows += 1
+        break
   return(A)
 
 def find_scalar(A, column):

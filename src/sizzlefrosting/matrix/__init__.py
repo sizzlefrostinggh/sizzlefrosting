@@ -2,6 +2,6 @@
 Arithmetic subpackage containing matrix operations.
 """
 
-from .elementary import diff
+from .elementary import rowswap, rowscale, rowreplacement, initial_swap, find_scalar, rref
 
-__all__ = ['rowswap', 'rowsale', 'rowreplacement', 'initial_swap', 'find_scalar', 'rref']
+__all__ = ['rowswap', 'rowscale', 'rowreplacement', 'initial_swap', 'find_scalar', 'rref']
