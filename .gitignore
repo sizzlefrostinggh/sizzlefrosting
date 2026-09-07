@@ -1,8 +1,11 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+*.so
 build/
 dist/
+target/
+wheelhouse/
 wheels/
 *.egg-info
 
