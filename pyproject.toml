@@ -1,7 +1,7 @@
 [project]
 name = "sizzlefrosting"
-version = "4.0.2"
-description = "Homework 00, 01, 02, 03, and 04"
+version = "5.0.1"
+description = "Homework 00, 01, 02, 03, 04, and 05"
 readme = "README.md"
 authors = [
     { name = "sizzlefrosting", email = "sizzlefrosting@gmail.com" }
